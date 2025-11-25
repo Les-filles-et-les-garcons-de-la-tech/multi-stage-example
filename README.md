@@ -1,17 +1,19 @@
 # multi-stage-example
 
 ## Introduction
-Ce dépôt contient un exemple de projet Java utilisant la technique des **multi-stage builds** dans **Docker**. L'objectif est de démontrer comment configurer un fichier **Dockerfile** multi-étapes pour optimiser le processus de construction et réduire la taille de l'image Docker finale.
+Ce dépôt contient un exemple de projet Java utilisant la technique des **multi-stage builds** dans **Docker**. L'objectif est de démontrer comment configurer un fichier **Dockerfile** multi-étapes pour optimiser le processus de construction et réduire la taille de l'image Docker finale.  
+  
+Il est en lien avec les formations sur les **Container Engines (Docker / Podman)** présentes sur le Drive.  
+
 
 ## Fonctionnalités
-- Utilisation de **multi-stage builds** dans Docker pour une image plus légère.
-- Exemple de **Java 21** avec Maven.
+- Utilisation de **multi-stage builds** pour la production d'une image OCI plus légère.
+- Exemple de **Java 25** avec Maven.
 - Inclut un fichier **Dockerfile** et un projet Maven minimal.
 
 ## Prérequis
-- **Docker** installé sur votre machine.
-- **Java 21** installé pour la construction du projet.
-- **Maven** pour gérer les dépendances et la construction du projet.
+- **Docker / Podman** installé sur votre machine.
+
 
 ## Construction de l'image Docker
 
