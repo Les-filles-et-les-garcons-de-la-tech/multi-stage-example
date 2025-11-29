@@ -5,7 +5,6 @@ Ce dépôt contient un exemple de projet Java utilisant la technique des **multi
   
 Il est en lien avec les formations sur les **Container Engines (Docker / Podman)** présentes sur le Drive.  
 
-
 ## Fonctionnalités
 - Utilisation de **multi-stage builds** pour la production d'une image OCI plus légère.
 - Exemple de **Java 25** avec Maven.
